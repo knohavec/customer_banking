@@ -18,7 +18,7 @@ def main():
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f"The interest earned on the savings account is: ${interest_earned},\nThe updated savings account balance is: ${updated_savings_balance}.\n")
+    print(f"The interest earned on the savings account is: ${interest_earned:,.2f},\nThe updated savings account balance is: ${updated_savings_balance:,.2f}.\n")
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     # ADD YOUR CODE HERE
     cd_balance = float(input("Enter the CD account balance: "))
@@ -30,7 +30,7 @@ def main():
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
     # ADD YOUR CODE HERE
-    print(f"The interest earned on the CD account is: ${interest_earned},\nThe updated CD account balance is: ${updated_cd_balance}.\n")
+    print(f"The interest earned on the CD account is: ${interest_earned:,.2f},\nThe updated CD account balance is: ${updated_cd_balance:,.2f}.\n")
 if __name__ == "__main__":
     # Call the main function.
     main()
